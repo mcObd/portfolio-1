@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obodos Mcquendie - Junior Web Developer & Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Obodos Mcquendie</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-section="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link" data-section="services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link" data-section="testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link" data-section="certifications">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Hi, I'm Obodos Mcquendie — Junior Web Developer & Designer
+            </h1>
+            <p class="hero-subtitle">
+                Crafting modern, conversion-focused websites that drive sales
+            </p>
+            <div class="typing-container">
+                <span class="typing-text">Specializing in </span>
+                <span class="typed-text" id="typed-text">Web Design</span>
+                <span class="cursor">|</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="/placeholder.svg?height=400&width=350" alt="Obodos Mcquendie" class="profile-img">
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        With several months of professional experience in web development, I've honed my skills in HTML, CSS, and JavaScript to create stunning, functional websites. As the creator of Project Flux, I've demonstrated my ability to bring innovative ideas to life.
+                    </p>
+                    <p class="about-description">
+                        My passion lies in blending cutting-edge design with strategic business thinking. I believe that great websites don't just look beautiful—they convert visitors into customers and drive real business results.
+                    </p>
+                    <p class="mission-statement">
+                        <strong>My mission:</strong> To help businesses establish a powerful online presence through modern, conversion-focused web solutions that make a lasting impact.
+                    </p>
+                    <a href="#services" class="btn btn-outline">Learn More About My Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section-title text-center">My Services</h2>
+            <div class="services-grid">
+                <div class="service-card glass-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="service-title">Web Design</h3>
+                    <p class="service-description">
+                        Pixel-perfect layouts, responsive frameworks, and modern UI patterns that captivate your audience and enhance user experience.
+                    </p>
+                    <a href="#contact" class="service-link">Get a Quote</a>
+                </div>
+                <div class="service-card glass-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service-title">Front-End Development</h3>
+                    <p class="service-description">
+                        HTML, CSS, JavaScript expertise to bring designs to life with smooth animations and interactive functionality.
+                    </p>
+                    <a href="#contact" class="service-link">Get a Quote</a>
+                </div>
+                <div class="service-card glass-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="service-title">Copywriting & Sales Funnels</h3>
+                    <p class="service-description">
+                        Conversion-focused messaging and lead-generation strategies that turn visitors into paying customers.
+                    </p>
+                    <a href="#contact" class="service-link">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <h2 class="section-title text-center">What Clients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-container">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-content glass-card">
+                            <img src="/placeholder.svg?height=80&width=80" alt="Sarah Johnson" class="client-photo">
+                            <p class="testimonial-text">
+                                "Obodos delivered exactly what we needed. The website is beautiful, fast, and has significantly improved our conversion rates. Highly recommended!"
+                            </p>
+                            <div class="client-info">
+                                <h4 class="client-name">Sarah Johnson</h4>
+                                <p class="client-title">Marketing Director, TechStart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content glass-card">
+                            <img src="/placeholder.svg?height=80&width=80" alt="Michael Chen" class="client-photo">
+                            <p class="testimonial-text">
+                                "Working with Obodos was a game-changer for our business. His attention to detail and understanding of user experience is exceptional."
+                            </p>
+                            <div class="client-info">
+                                <h4 class="client-name">Michael Chen</h4>
+                                <p class="client-title">CEO, Digital Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content glass-card">
+                            <img src="/placeholder.svg?height=80&width=80" alt="Emily Rodriguez" class="client-photo">
+                            <p class="testimonial-text">
+                                "The project was completed on time and exceeded our expectations. Obodos truly understands how to create websites that convert."
+                            </p>
+                            <div class="client-info">
+                                <h4 class="client-name">Emily Rodriguez</h4>
+                                <p class="client-title">Founder, Creative Agency</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-arrow prev-arrow" aria-label="Previous testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-arrow next-arrow" aria-label="Next testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#contact" class="btn btn-outline">Let's Talk About Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <h2 class="section-title text-center">Certifications & Achievements</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-front">
+                        <div class="cert-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="cert-title">Project Flux</h3>
+                        <p class="cert-subtitle">Creator & Developer</p>
+                    </div>
+                    <div class="cert-back">
+                        <p class="cert-date">2024</p>
+                        <p class="cert-org">Independent Project</p>
+                        <p class="cert-desc">Innovative web application showcasing modern development practices</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-front">
+                        <div class="cert-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3 class="cert-title">Web Development</h3>
+                        <p class="cert-subtitle">Professional Certificate</p>
+                    </div>
+                    <div class="cert-back">
+                        <p class="cert-date">2024</p>
+                        <p class="cert-org">LinkedIn Learning</p>
+                        <p class="cert-desc">Comprehensive training in modern web development technologies</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-front">
+                        <div class="cert-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="cert-title">JavaScript Mastery</h3>
+                        <p class="cert-subtitle">Advanced Certification</p>
+                    </div>
+                    <div class="cert-back">
+                        <p class="cert-date">2024</p>
+                        <p class="cert-org">Online Academy</p>
+                        <p class="cert-desc">Advanced JavaScript concepts and modern ES6+ features</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-front">
+                        <div class="cert-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="cert-title">Responsive Design</h3>
+                        <p class="cert-subtitle">Specialist Certificate</p>
+                    </div>
+                    <div class="cert-back">
+                        <p class="cert-date">2024</p>
+                        <p class="cert-org">Design Institute</p>
+                        <p class="cert-desc">Mobile-first design principles and responsive frameworks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <form class="contact-form glass-card" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="project" class="form-label">Project Details</label>
+                            <textarea id="project" name="project" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-pulse">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-cta">
+                        <h3>Ready to start your next project?</h3>
+                        <p>Let's build something amazing together.</p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Email</span>
+                                <a href="mailto:obodos@example.com">obodos@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span>Phone</span>
+                                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#services" class="footer-link">Services</a>
+                    <a href="#testimonials" class="footer-link">Testimonials</a>
+                    <a href="#certifications" class="footer-link">Certifications</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Obodos Mcquendie. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
